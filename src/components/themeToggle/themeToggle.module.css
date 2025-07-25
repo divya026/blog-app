@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    position: relative;
+    height: 1.5rem;
+    border-radius: 2rem;
+    width: 3rem;
+    cursor: pointer;
+}
+
+.ball{
+    position: absolute;
+    background-color: white;
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 50%;
+}
+
+.ball.active {
+  left: 1.7rem; /* new position when active */
+}
