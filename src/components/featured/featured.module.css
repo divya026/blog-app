@@ -1,0 +1,55 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.title{
+    padding-top: 40px;
+}
+
+.post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    gap: 3rem;
+}
+
+.postImg{
+    flex: 1;
+    height: 400px;
+    position: relative;
+}
+
+.image{
+    object-fit: cover;
+}
+
+.postDesc{
+    flex: 1;
+    color: var(--softColor)
+}
+
+.postDescTitle{
+    font-size: 26px;
+}
+
+.postDescPara{
+    margin-top: 1rem;
+    font-size: 16px;
+    color: var(--softTextColor);
+}
+
+.button{
+    cursor: pointer;
+    margin-top: 2rem;
+    font-weight: bold;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 5px;
+    width: max-content;
+    background-color: rgb(195, 193, 193);
+}
