@@ -6,7 +6,7 @@
 }
 
 .title{
-    padding-top: 40px;
+    padding-top: 45px;
 }
 
 .post{
@@ -15,6 +15,7 @@
     justify-content: center;
     padding-top: 5rem;
     gap: 3rem;
+    overflow: visible;
 }
 
 .postImg{
@@ -29,16 +30,17 @@
 
 .postDesc{
     flex: 1;
-    color: var(--softColor)
+    color: var(--softColor);
+    text-align: justify;
 }
 
 .postDescTitle{
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .postDescPara{
     margin-top: 1rem;
-    font-size: 16px;
+    font-size: 14px;
     color: var(--softTextColor);
 }
 
@@ -51,4 +53,48 @@
     border-radius: 5px;
     width: max-content;
     background-color: rgb(195, 193, 193);
+}
+
+
+@media screen and (max-width: 1024px) {
+    .title{
+        font-size: 15px;
+    }
+    .postDescTitle{
+        font-size: 17px;
+    }
+    .postDescPara{
+        font-size: 13px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .title{
+        font-size: 14px;
+    }
+    .postImg{
+        height: 360px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container{
+        height: 100%;
+    }
+    .title{
+        font-size: 13px;
+    }
+    .post{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .postImg {
+        flex: none;
+        width: 100%;
+        height: 20rem;
+    }
+    
+
 }
