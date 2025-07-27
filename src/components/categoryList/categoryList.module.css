@@ -4,6 +4,11 @@
     gap: 2rem;
 }
 
+.title{
+    font-size: 1.5em;
+
+}
+
 .categories{
     display: flex;
     align-items: center;
@@ -48,4 +53,39 @@
 .categories .culture{
      background-color: #5e4fff31;
     
+}
+
+
+@media screen and (max-width: 1024px) {
+    .category{
+        font-size: .8em;
+        height: 40px;
+    }
+    
+
+}
+
+@media screen and (max-width: 768px) {
+    .title{
+        font-size: 1.3em;
+    }
+    .category{
+        width: 18%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container{
+        margin-top: 2.5rem;
+    }
+    .categories{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        
+    }
+    .category{
+        width: 100%;
+        align-items: center;
+    }
 }
