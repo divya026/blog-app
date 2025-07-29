@@ -1,0 +1,16 @@
+.container{
+    flex: 2;
+}
+
+.menuTitle{
+    font-size: 20px;
+}
+
+.menuSubtitle{
+    font-size: 14px;
+    color: var(--softTextColor);
+    font-weight: 400;
+    margin-top: 2.2rem;
+}
+
+

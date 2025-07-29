@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.pageButton{
+    background-color: crimson;
+    border: none;
+    color: white;
+    padding: .8rem;
+    width: 100px;
+    cursor: pointer;
+}
+
