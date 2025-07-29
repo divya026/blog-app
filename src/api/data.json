@@ -1,0 +1,40 @@
+{
+  "destinations": [
+    {
+      "location": "Paris",
+      "image": "/paris.jpg",
+      "date": "06.04.2024",
+      "culture": "CULTURE",
+      "heading": "Iron Elegance: Where Dreams Touch the Sky",
+      "paragraph": "In the heart of Paris, where cobbled streets hum with romance and cafés breathe life into lazy afternoons, the Eiffel Tower rises like a poem in iron. Graceful yet bold, it pierces the clouds with timeless pride, watching over a city that dances between history and art. By day, it shimmers in sunlight; by night, it sparkles like a thousand whispered wishes. Beneath its arches, lovers meet, artists sketch, and time seems to pause—reminding all who stand before it that some dreams are built to last forever.",
+      "subpara": "The Eiffel Tower rises as a timeless symbol of romance and artistic grace."
+    },
+    {
+      "location": "Switzerland",
+      "image": "/switzerland.jpg",
+      "date": "26.06.2024",
+      "culture": "CULTURE",
+      "heading": "Alpine Symphony: Where Nature Sings in Silence",
+      "paragraph": "Cradled in snow-dusted peaks and mirror-like lakes, Switzerland feels like a breath held by the Earth itself. Here, time glides with the mountain breeze, brushing through flower-filled meadows and timeless chalets. Trains wind through emerald valleys, yodels echo softly from distant hills, and every scene seems painted by serenity. It’s a land where nature writes poetry, and the soul—hushed by the grandeur—learns to listen.",
+      "subpara": "A serene escape where alpine beauty and silence compose nature’s finest symphony."
+    },
+    {
+      "location": "Europe",
+      "image": "/europe.jpg",
+      "date": "07.02.2025",
+      "culture": "CULTURE",
+      "heading": "Cultures Woven Through Time",
+      "paragraph": "Europe is a mosaic of whispers and wonders, where every cobblestone tells a tale and every cathedral touches the sky. From the sunlit coasts of the Mediterranean to the misty highlands of the north, it’s a journey through art, flavor, language, and legacy. Empires have risen and fallen here, yet their echoes dance on in plazas, galleries, and quiet village squares. To wander Europe is to walk through history—one breathtaking heartbeat at a time.",
+      "subpara": "A continent woven with history, culture, and timeless human stories."
+    },
+    {
+      "location": "Vernazza",
+      "image": "/p1.jpeg",
+      "date": "27.07.2025",
+      "culture": "CULTURE",
+      "heading": "Cliffside Dreams: Where Time Meets the Sea",
+      "paragraph": "Tucked into the rugged cliffs of Italy’s Cinque Terre, Vernazza whispers stories of the sea with every crashing wave. This picturesque village, crowned with a medieval watchtower, clings boldly to the rock as if guarding centuries of secrets. With terracotta rooftops basking in the sun and turquoise waters stretching to the horizon, it’s a place where past and present blend into pure Mediterranean magic. From hidden alleys to vibrant harbor life, every corner invites you to slow down—and simply feel.",
+      "subpara": "A seaside village clinging to Italy’s cliffs, where waves and history whisper together."
+    }
+  ]
+}
