@@ -19,7 +19,7 @@
 }
 
 .cardImg {
-  flex: 1;
+    flex: 1;
     aspect-ratio: 1/1;
     position: relative;
 }
@@ -62,4 +62,56 @@ color: crimson;
     padding: .6rem;
     border-radius: 5px;
     margin-top: 1.4rem
+}
+
+
+@media screen and (max-width: 1280px) {
+    .dateConatiner{
+        font-size: 12px
+    }
+    .cardDescTitle{
+    font-size: 16px 
+    }
+    .cardDescPara{
+    font-size: 12px;
+   
+}
+}
+
+@media screen and (max-width: 1024px) {
+    .container{
+        padding-right: 0rem;
+    }
+   
+}
+
+@media screen and (max-width: 768px) {
+    .dateConatiner{
+        font-size: 10px
+    }
+    .cardDescTitle{
+    font-size: 14px 
+    }
+    .cardDescPara{
+    font-size: 10px;
+}
+.cardButton{
+    font-size: 10px;
+    padding: .4rem;
+}
+}
+
+@media screen and (max-width: 640px) {
+    .container .card{
+        display: block;
+    }
+    .cardImg{
+        aspect-ratio: 0;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    .image{
+        width: 100%;
+    }
 }

@@ -70,3 +70,14 @@ background-color: #775aec;
 .style{
 background-color: #789cff;
 }
+
+@media screen and (max-width: 1280px) {
+   .menuItem{
+    height: 18vh;
+   } 
+   .menuPostTitle{
+    font-size: 12px;
+   }
+}
+
+
