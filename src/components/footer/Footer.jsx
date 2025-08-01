@@ -21,10 +21,10 @@ const Footer = () => {
         </div>
         <div className={styles.footerDesc}>
           <p>
-            DivyaBlog is your window to timeless destinations, cultural wonders,
+            {`DivyaBlog is your window to timeless destinations, cultural wonders,
             and soul-stirring journeys. From city lights to cliffside escapes,
             we bring you stories that inspire, inform, and ignite your
-            wanderlust.
+            wanderlust.`}
           </p>
         </div>
         <div className={styles.footerSocial}>
