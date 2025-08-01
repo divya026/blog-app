@@ -68,7 +68,7 @@ const CategoryList = () => {
           className={`${styles.category} ${styles.culture}`}
         >
           <Image
-            src="/culture.png"
+            src="/paris.jpg"
             alt=""
             height={30}
             width={30}
