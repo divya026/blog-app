@@ -23,6 +23,7 @@ const Comments = () => {
           <div className={styles.user}>
             <Image
               src="/p1.jpeg"
+              alt=""
               className={styles.image}
               height={50}
               width={50}
@@ -46,6 +47,7 @@ const Comments = () => {
         <div className={styles.comment}>
           <div className={styles.user}>
             <Image
+              alt=""
               src="/p1.jpeg"
               className={styles.image}
               height={50}
@@ -71,6 +73,7 @@ const Comments = () => {
           <div className={styles.user}>
             <Image
               src="/p1.jpeg"
+              alt=""
               className={styles.image}
               height={50}
               width={50}
@@ -95,6 +98,7 @@ const Comments = () => {
           <div className={styles.user}>
             <Image
               src="/p1.jpeg"
+              alt=""
               className={styles.image}
               height={50}
               width={50}
