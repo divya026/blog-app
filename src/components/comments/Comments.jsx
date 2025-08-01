@@ -29,7 +29,7 @@ const Comments = () => {
             />
             <div className={styles.userInfo}>
               <span className={styles.username}>Divya Dewangan</span>
-              <span className={styles.date}>11.11.2024</span>
+              <div className={styles.date}>11.11.2024</div>
             </div>
           </div>
           <p className={styles.desc}>

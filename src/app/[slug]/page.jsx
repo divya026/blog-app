@@ -10,7 +10,9 @@ const page = () => {
       <div className={styles.container}>
         <div className={styles.infoContainer}>
           <div className={styles.textContainer}>
-            <h2>Cliffside Dreams: Where Time Meets the Sea</h2>
+            <h2 className={styles.title}>
+              Cliffside Dreams: Where Time Meets the Sea
+            </h2>
             <div className={styles.user}>
               <div className={styles.userImageContainer}>
                 <Image src="/p1.jpeg" alt="" fill className={styles.avatar} />
