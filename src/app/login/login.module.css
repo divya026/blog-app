@@ -66,3 +66,13 @@
     font-size: 13px;
    }
 }
+
+@media screen and (max-width: 406px) {
+    .wrapper{
+    padding: 80px 80px;
+   } 
+   .socialButton{
+    padding: .8rem;
+    font-size: 11px;
+   }
+}
