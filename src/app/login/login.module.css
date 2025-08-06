@@ -58,21 +58,15 @@
 }
 
 @media screen and (max-width: 640px) {
-    .wrapper{
-    padding: 80px 80px;
-   } 
-   .socialButton{
-    padding: .8rem;
-    font-size: 13px;
-   }
-}
+  .wrapper {
+    padding: 80px 20px;
+    width: 100%;
+    margin: 0 1.3rem;
+  }
 
-@media screen and (max-width: 406px) {
-    .wrapper{
-    padding: 80px 80px;
-   } 
-   .socialButton{
-    padding: .8rem;
-    font-size: 11px;
-   }
+  .socialButton {
+    padding: 0.8rem 1rem;
+    font-size: 13px;
+    text-align: center;
+  }
 }
