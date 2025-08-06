@@ -41,3 +41,28 @@
 
 }
 
+@media screen and (max-width: 1024px) {
+   .wrapper{
+    padding: 90px 100px;
+   } 
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper{
+    padding: 90px 90px;
+   } 
+   .socialButton{
+    padding: .9rem;
+    font-size: 15px;
+   }
+}
+
+@media screen and (max-width: 640px) {
+    .wrapper{
+    padding: 80px 80px;
+   } 
+   .socialButton{
+    padding: .8rem;
+    font-size: 13px;
+   }
+}
